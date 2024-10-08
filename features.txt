@@ -1,0 +1,22 @@
+[Feature/Bug] Title: Improve Navigation Bar Responsiveness
+Issue Type: Feature / Bug
+Description:
+The current navigation bar on the portfolio website does not adapt well to different screen sizes, especially on mobile devices. On smaller screens, the menu items either overlap or get cut off, resulting in poor user experience. Additionally, some links are unclickable when the screen width is less than 768px.
+
+Proposed Solution:
+For Feature: Implement a responsive hamburger menu that collapses on mobile devices, making the navigation smoother for mobile users.
+For Bug: Fix the CSS properties for the navigation bar to ensure all links are displayed correctly and remain clickable regardless of the screen size.
+Steps to Reproduce:
+Open the portfolio website on a mobile device or shrink the browser window width to less than 768px.
+Observe the overlapping or cut-off navigation items.
+Expected Behavior:
+On mobile screens, the navigation bar should collapse into a hamburger menu.
+The menu should expand when clicked and all links should be easily accessible.
+Actual Behavior:
+On screens less than 768px, some navigation links are cut off and unclickable.
+Additional Context:
+Browser: Chrome, Firefox
+Devices: window 11
+Suggested libraries: Bootstrap 5, Tailwind CSS
+Priority: Medium
+Assignees: prietyGoyal24
